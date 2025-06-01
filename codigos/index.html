@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Sistema de Coleta de Lixo - Recife</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>     
+     <h1>Sistema de Coleta de Lixo - Recife</h1>
+
+  <div id="map" style="height: 400px;"></div>
+
+  <h2>Denunciar Local</h2>
+  <input type="text" id="descricao" placeholder="Descrição da denúncia">
+  <button id="btnDenunciar">Enviar Denúncia</button>
+
+  <h2>Horários de Coleta</h2>
+  <ul id="listaColetas"></ul>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
